@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A971D1A4180029FF00F08CCF /* imageBack.png in Resources */ = {isa = PBXBuildFile; fileRef = A971D1A3180029FF00F08CCF /* imageBack.png */; };
+		A982CA4C17F06F9400B660A0 /* appLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A982CA4817F06F9400B660A0 /* appLogo.png */; };
+		A982CA4D17F06F9400B660A0 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = A982CA4917F06F9400B660A0 /* logo1.png */; };
+		A982CA4E17F06F9400B660A0 /* logo3.png in Resources */ = {isa = PBXBuildFile; fileRef = A982CA4A17F06F9400B660A0 /* logo3.png */; };
+		A982CA4F17F06F9400B660A0 /* settingsIcon1.png in Resources */ = {isa = PBXBuildFile; fileRef = A982CA4B17F06F9400B660A0 /* settingsIcon1.png */; };
+		A982CA5117F0828E00B660A0 /* NotesDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A982CA5017F0828E00B660A0 /* NotesDB.sqlite */; };
+		A9AA50A418003E970044EB3D /* DIO.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AA50A318003E970044EB3D /* DIO.m */; };
+		A9E1E92817ED7E7600CDF684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E1E92717ED7E7600CDF684 /* UIKit.framework */; };
+		A9E1E92A17ED7E7600CDF684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E1E92917ED7E7600CDF684 /* Foundation.framework */; };
+		A9E1E92C17ED7E7600CDF684 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E1E92B17ED7E7600CDF684 /* CoreGraphics.framework */; };
+		A9E1E93217ED7E7600CDF684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9E1E93017ED7E7600CDF684 /* InfoPlist.strings */; };
+		A9E1E93417ED7E7600CDF684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1E93317ED7E7600CDF684 /* main.m */; };
+		A9E1E93817ED7E7600CDF684 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1E93717ED7E7600CDF684 /* AppDelegate.m */; };
+		A9E1E93A17ED7E7600CDF684 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A9E1E93917ED7E7600CDF684 /* Default.png */; };
+		A9E1E93C17ED7E7600CDF684 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9E1E93B17ED7E7600CDF684 /* Default@2x.png */; };
+		A9E1E93E17ED7E7600CDF684 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9E1E93D17ED7E7600CDF684 /* Default-568h@2x.png */; };
+		A9E1E95217ED7F3A00CDF684 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1E95117ED7F3A00CDF684 /* ViewController.m */; };
+		A9E1E95417ED7F4300CDF684 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E1E95317ED7F4300CDF684 /* ViewController.xib */; };
+		A9E1E95E17ED802100CDF684 /* SignUPVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1E95C17ED802100CDF684 /* SignUPVC.m */; };
+		A9E1E96D17ED808200CDF684 /* NotesDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1E96B17ED808200CDF684 /* NotesDetailVC.m */; };
+		A9E1E97217ED80AB00CDF684 /* AllNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1E97017ED80AB00CDF684 /* AllNotes.m */; };
+		A9E1E97717ED80B900CDF684 /* MyNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1E97517ED80B900CDF684 /* MyNotes.m */; };
+		A9E1E97C17ED80C500CDF684 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1E97A17ED80C500CDF684 /* Settings.m */; };
+		A9E1E98117ED80E200CDF684 /* AddEditNote.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1E97F17ED80E200CDF684 /* AddEditNote.m */; };
+		A9E1E98A17ED812A00CDF684 /* AddEditNote.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E1E98317ED812A00CDF684 /* AddEditNote.xib */; };
+		A9E1E98B17ED812A00CDF684 /* AllNotes.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E1E98417ED812A00CDF684 /* AllNotes.xib */; };
+		A9E1E98D17ED812A00CDF684 /* MyNotes.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E1E98617ED812A00CDF684 /* MyNotes.xib */; };
+		A9E1E98E17ED812A00CDF684 /* NotesDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E1E98717ED812A00CDF684 /* NotesDetailVC.xib */; };
+		A9E1E98F17ED812A00CDF684 /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E1E98817ED812A00CDF684 /* Settings.xib */; };
+		A9E1E99917ED8CA600CDF684 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E1E99817ED8CA600CDF684 /* libsqlite3.0.dylib */; };
+		A9E1E99D17EDB1DD00CDF684 /* NotesDB.db in Resources */ = {isa = PBXBuildFile; fileRef = A9E1E99C17EDB1DD00CDF684 /* NotesDB.db */; };
+		A9F40B6217EDCEA700A6CF31 /* isSelected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9F40B6117EDCEA700A6CF31 /* isSelected.jpg */; };
+		E98B9C3C17EF4A330056FEB6 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E98B9C3817EF4A330056FEB6 /* background.jpg */; };
+		E98B9C3D17EF4A330056FEB6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E98B9C3917EF4A330056FEB6 /* logo.png */; };
+		E98B9C3E17EF4A330056FEB6 /* privateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E98B9C3A17EF4A330056FEB6 /* privateIcon.png */; };
+		E98B9C3F17EF4A330056FEB6 /* settingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E98B9C3B17EF4A330056FEB6 /* settingsIcon.png */; };
+		E98B9C4117EF4C090056FEB6 /* publicIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E98B9C4017EF4C090056FEB6 /* publicIcon.png */; };
+		E98B9C5517EF61FD0056FEB6 /* selectioinBackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E98B9C5417EF61FD0056FEB6 /* selectioinBackGround.jpg */; };
+		E98FF942180237830093C5FF /* EditImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FF941180237830093C5FF /* EditImage.m */; };
+		E98FF9441802389D0093C5FF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98FF9431802389D0093C5FF /* QuartzCore.framework */; };
+		E99BE41817EE9D1E00D73A4B /* ResetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E99BE41617EE9D1C00D73A4B /* ResetPasswordVC.m */; };
+		E99BE41B17EE9DD400D73A4B /* ResetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99BE41A17EE9DD400D73A4B /* ResetPasswordVC.xib */; };
+		E9BB297A1802367C0047DCBA /* ColorsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BB29771802367A0047DCBA /* ColorsVC.m */; };
+		E9BB297E180236880047DCBA /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BB297D180236870047DCBA /* View.m */; };
+		E9DE9F9818018B8F007E7A90 /* SignUPVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DE9F9718018B8F007E7A90 /* SignUPVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A971D1A3180029FF00F08CCF /* imageBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imageBack.png; path = libs/images/icons/imageBack.png; sourceTree = "<group>"; };
+		A982CA4817F06F9400B660A0 /* appLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appLogo.png; path = libs/images/icons/appLogo.png; sourceTree = "<group>"; };
+		A982CA4917F06F9400B660A0 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1.png; path = libs/images/icons/logo1.png; sourceTree = "<group>"; };
+		A982CA4A17F06F9400B660A0 /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo3.png; path = libs/images/icons/logo3.png; sourceTree = "<group>"; };
+		A982CA4B17F06F9400B660A0 /* settingsIcon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settingsIcon1.png; path = libs/images/icons/settingsIcon1.png; sourceTree = "<group>"; };
+		A982CA5017F0828E00B660A0 /* NotesDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = NotesDB.sqlite; path = libs/dataBase/NotesDB.sqlite; sourceTree = "<group>"; };
+		A9AA50A218003E970044EB3D /* DIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIO.h; sourceTree = "<group>"; };
+		A9AA50A318003E970044EB3D /* DIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIO.m; sourceTree = "<group>"; };
+		A9E1E92417ED7E7600CDF684 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E1E92717ED7E7600CDF684 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9E1E92917ED7E7600CDF684 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9E1E92B17ED7E7600CDF684 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9E1E92F17ED7E7600CDF684 /* Notes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Notes-Info.plist"; sourceTree = "<group>"; };
+		A9E1E93117ED7E7600CDF684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9E1E93317ED7E7600CDF684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9E1E93517ED7E7600CDF684 /* Notes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Notes-Prefix.pch"; sourceTree = "<group>"; };
+		A9E1E93617ED7E7600CDF684 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9E1E93717ED7E7600CDF684 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9E1E93917ED7E7600CDF684 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A9E1E93B17ED7E7600CDF684 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A9E1E93D17ED7E7600CDF684 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A9E1E95017ED7F3A00CDF684 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = classes/ViewController.h; sourceTree = "<group>"; };
+		A9E1E95117ED7F3A00CDF684 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = classes/ViewController.m; sourceTree = "<group>"; };
+		A9E1E95317ED7F4300CDF684 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = view/ViewController.xib; sourceTree = "<group>"; };
+		A9E1E95B17ED802100CDF684 /* SignUPVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUPVC.h; path = classes/SignUPVC.h; sourceTree = "<group>"; };
+		A9E1E95C17ED802100CDF684 /* SignUPVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUPVC.m; path = classes/SignUPVC.m; sourceTree = "<group>"; };
+		A9E1E96A17ED808200CDF684 /* NotesDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotesDetailVC.h; path = classes/NotesDetailVC.h; sourceTree = "<group>"; };
+		A9E1E96B17ED808200CDF684 /* NotesDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotesDetailVC.m; path = classes/NotesDetailVC.m; sourceTree = "<group>"; };
+		A9E1E96F17ED80AB00CDF684 /* AllNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllNotes.h; path = classes/AllNotes.h; sourceTree = "<group>"; };
+		A9E1E97017ED80AB00CDF684 /* AllNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllNotes.m; path = classes/AllNotes.m; sourceTree = "<group>"; };
+		A9E1E97417ED80B900CDF684 /* MyNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyNotes.h; path = classes/MyNotes.h; sourceTree = "<group>"; };
+		A9E1E97517ED80B900CDF684 /* MyNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyNotes.m; path = classes/MyNotes.m; sourceTree = "<group>"; };
+		A9E1E97917ED80C500CDF684 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = classes/Settings.h; sourceTree = "<group>"; };
+		A9E1E97A17ED80C500CDF684 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = classes/Settings.m; sourceTree = "<group>"; };
+		A9E1E97E17ED80E200CDF684 /* AddEditNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddEditNote.h; path = classes/AddEditNote.h; sourceTree = "<group>"; };
+		A9E1E97F17ED80E200CDF684 /* AddEditNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddEditNote.m; path = classes/AddEditNote.m; sourceTree = "<group>"; };
+		A9E1E98317ED812A00CDF684 /* AddEditNote.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddEditNote.xib; path = view/AddEditNote.xib; sourceTree = "<group>"; };
+		A9E1E98417ED812A00CDF684 /* AllNotes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AllNotes.xib; path = view/AllNotes.xib; sourceTree = "<group>"; };
+		A9E1E98617ED812A00CDF684 /* MyNotes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyNotes.xib; path = view/MyNotes.xib; sourceTree = "<group>"; };
+		A9E1E98717ED812A00CDF684 /* NotesDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NotesDetailVC.xib; path = view/NotesDetailVC.xib; sourceTree = "<group>"; };
+		A9E1E98817ED812A00CDF684 /* Settings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Settings.xib; path = view/Settings.xib; sourceTree = "<group>"; };
+		A9E1E99817ED8CA600CDF684 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A9E1E99C17EDB1DD00CDF684 /* NotesDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = NotesDB.db; path = libs/dataBase/NotesDB.db; sourceTree = "<group>"; };
+		A9F40B6117EDCEA700A6CF31 /* isSelected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = isSelected.jpg; path = libs/images/icons/isSelected.jpg; sourceTree = "<group>"; };
+		E98B9C3817EF4A330056FEB6 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = libs/images/icons/background.jpg; sourceTree = "<group>"; };
+		E98B9C3917EF4A330056FEB6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = libs/images/icons/logo.png; sourceTree = "<group>"; };
+		E98B9C3A17EF4A330056FEB6 /* privateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = privateIcon.png; path = libs/images/icons/privateIcon.png; sourceTree = "<group>"; };
+		E98B9C3B17EF4A330056FEB6 /* settingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settingsIcon.png; path = libs/images/icons/settingsIcon.png; sourceTree = "<group>"; };
+		E98B9C4017EF4C090056FEB6 /* publicIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = publicIcon.png; path = libs/images/icons/publicIcon.png; sourceTree = "<group>"; };
+		E98B9C5417EF61FD0056FEB6 /* selectioinBackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = selectioinBackGround.jpg; path = libs/images/icons/selectioinBackGround.jpg; sourceTree = "<group>"; };
+		E98FF940180237830093C5FF /* EditImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditImage.h; path = classes/EditImage.h; sourceTree = "<group>"; };
+		E98FF941180237830093C5FF /* EditImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditImage.m; path = classes/EditImage.m; sourceTree = "<group>"; };
+		E98FF9431802389D0093C5FF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E99BE41517EE9D1C00D73A4B /* ResetPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResetPasswordVC.h; path = classes/ResetPasswordVC.h; sourceTree = "<group>"; };
+		E99BE41617EE9D1C00D73A4B /* ResetPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResetPasswordVC.m; path = classes/ResetPasswordVC.m; sourceTree = "<group>"; };
+		E99BE41A17EE9DD400D73A4B /* ResetPasswordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResetPasswordVC.xib; path = view/ResetPasswordVC.xib; sourceTree = "<group>"; };
+		E9BB29761802367A0047DCBA /* ColorsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorsVC.h; path = classes/ColorsVC.h; sourceTree = "<group>"; };
+		E9BB29771802367A0047DCBA /* ColorsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorsVC.m; path = classes/ColorsVC.m; sourceTree = "<group>"; };
+		E9BB297C180236870047DCBA /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View.h; path = classes/View.h; sourceTree = "<group>"; };
+		E9BB297D180236870047DCBA /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = View.m; path = classes/View.m; sourceTree = "<group>"; };
+		E9DE9F9718018B8F007E7A90 /* SignUPVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SignUPVC.xib; path = view/SignUPVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E1E92117ED7E7600CDF684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98FF9441802389D0093C5FF /* QuartzCore.framework in Frameworks */,
+				A9E1E99917ED8CA600CDF684 /* libsqlite3.0.dylib in Frameworks */,
+				A9E1E92817ED7E7600CDF684 /* UIKit.framework in Frameworks */,
+				A9E1E92A17ED7E7600CDF684 /* Foundation.framework in Frameworks */,
+				A9E1E92C17ED7E7600CDF684 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9E1E91B17ED7E7600CDF684 = {
+			isa = PBXGroup;
+			children = (
+				E98FF9431802389D0093C5FF /* QuartzCore.framework */,
+				A9E1E99817ED8CA600CDF684 /* libsqlite3.0.dylib */,
+				A9E1E92D17ED7E7600CDF684 /* Notes */,
+				A9E1E92617ED7E7600CDF684 /* Frameworks */,
+				A9E1E92517ED7E7600CDF684 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9E1E92517ED7E7600CDF684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E1E92417ED7E7600CDF684 /* Notes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E1E92617ED7E7600CDF684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9E1E92717ED7E7600CDF684 /* UIKit.framework */,
+				A9E1E92917ED7E7600CDF684 /* Foundation.framework */,
+				A9E1E92B17ED7E7600CDF684 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9E1E92D17ED7E7600CDF684 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				A9E1E94D17ED7EB600CDF684 /* libs */,
+				A9E1E94C17ED7EA800CDF684 /* view */,
+				A9E1E94A17ED7E7E00CDF684 /* classes */,
+				A9E1E93617ED7E7600CDF684 /* AppDelegate.h */,
+				A9E1E93717ED7E7600CDF684 /* AppDelegate.m */,
+				A9E1E92E17ED7E7600CDF684 /* Supporting Files */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		A9E1E92E17ED7E7600CDF684 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9E1E92F17ED7E7600CDF684 /* Notes-Info.plist */,
+				A9E1E93017ED7E7600CDF684 /* InfoPlist.strings */,
+				A9E1E93317ED7E7600CDF684 /* main.m */,
+				A9E1E93517ED7E7600CDF684 /* Notes-Prefix.pch */,
+				A9E1E93917ED7E7600CDF684 /* Default.png */,
+				A9E1E93B17ED7E7600CDF684 /* Default@2x.png */,
+				A9E1E93D17ED7E7600CDF684 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9E1E94A17ED7E7E00CDF684 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9E1E94F17ED7EC700CDF684 /* DIO */,
+				A9E1E95017ED7F3A00CDF684 /* ViewController.h */,
+				A9E1E95117ED7F3A00CDF684 /* ViewController.m */,
+				A9E1E95B17ED802100CDF684 /* SignUPVC.h */,
+				A9E1E95C17ED802100CDF684 /* SignUPVC.m */,
+				E99BE41517EE9D1C00D73A4B /* ResetPasswordVC.h */,
+				E99BE41617EE9D1C00D73A4B /* ResetPasswordVC.m */,
+				A9E1E96F17ED80AB00CDF684 /* AllNotes.h */,
+				A9E1E97017ED80AB00CDF684 /* AllNotes.m */,
+				A9E1E97417ED80B900CDF684 /* MyNotes.h */,
+				A9E1E97517ED80B900CDF684 /* MyNotes.m */,
+				A9E1E97917ED80C500CDF684 /* Settings.h */,
+				A9E1E97A17ED80C500CDF684 /* Settings.m */,
+				A9E1E96A17ED808200CDF684 /* NotesDetailVC.h */,
+				A9E1E96B17ED808200CDF684 /* NotesDetailVC.m */,
+				A9E1E97E17ED80E200CDF684 /* AddEditNote.h */,
+				A9E1E97F17ED80E200CDF684 /* AddEditNote.m */,
+				E98FF940180237830093C5FF /* EditImage.h */,
+				E98FF941180237830093C5FF /* EditImage.m */,
+				E9BB297C180236870047DCBA /* View.h */,
+				E9BB297D180236870047DCBA /* View.m */,
+				E9BB29761802367A0047DCBA /* ColorsVC.h */,
+				E9BB29771802367A0047DCBA /* ColorsVC.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		A9E1E94C17ED7EA800CDF684 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E9DE9F9718018B8F007E7A90 /* SignUPVC.xib */,
+				A9E1E95317ED7F4300CDF684 /* ViewController.xib */,
+				E99BE41A17EE9DD400D73A4B /* ResetPasswordVC.xib */,
+				A9E1E98417ED812A00CDF684 /* AllNotes.xib */,
+				A9E1E98617ED812A00CDF684 /* MyNotes.xib */,
+				A9E1E98817ED812A00CDF684 /* Settings.xib */,
+				A9E1E98717ED812A00CDF684 /* NotesDetailVC.xib */,
+				A9E1E98317ED812A00CDF684 /* AddEditNote.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		A9E1E94D17ED7EB600CDF684 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A9F40B5F17EDCE6600A6CF31 /* images */,
+				A9E1E94E17ED7EBD00CDF684 /* dataBase */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		A9E1E94E17ED7EBD00CDF684 /* dataBase */ = {
+			isa = PBXGroup;
+			children = (
+				A982CA5017F0828E00B660A0 /* NotesDB.sqlite */,
+				A9E1E99C17EDB1DD00CDF684 /* NotesDB.db */,
+			);
+			name = dataBase;
+			sourceTree = "<group>";
+		};
+		A9E1E94F17ED7EC700CDF684 /* DIO */ = {
+			isa = PBXGroup;
+			children = (
+				A9AA50A218003E970044EB3D /* DIO.h */,
+				A9AA50A318003E970044EB3D /* DIO.m */,
+			);
+			name = DIO;
+			sourceTree = "<group>";
+		};
+		A9F40B5F17EDCE6600A6CF31 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A9F40B6017EDCE9600A6CF31 /* icons */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		A9F40B6017EDCE9600A6CF31 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				A971D1A3180029FF00F08CCF /* imageBack.png */,
+				A982CA4817F06F9400B660A0 /* appLogo.png */,
+				A982CA4917F06F9400B660A0 /* logo1.png */,
+				A982CA4A17F06F9400B660A0 /* logo3.png */,
+				A982CA4B17F06F9400B660A0 /* settingsIcon1.png */,
+				E98B9C5417EF61FD0056FEB6 /* selectioinBackGround.jpg */,
+				E98B9C4017EF4C090056FEB6 /* publicIcon.png */,
+				E98B9C3817EF4A330056FEB6 /* background.jpg */,
+				E98B9C3917EF4A330056FEB6 /* logo.png */,
+				E98B9C3A17EF4A330056FEB6 /* privateIcon.png */,
+				E98B9C3B17EF4A330056FEB6 /* settingsIcon.png */,
+				A9F40B6117EDCEA700A6CF31 /* isSelected.jpg */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9E1E92317ED7E7600CDF684 /* Notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E1E94717ED7E7600CDF684 /* Build configuration list for PBXNativeTarget "Notes" */;
+			buildPhases = (
+				A9E1E92017ED7E7600CDF684 /* Sources */,
+				A9E1E92117ED7E7600CDF684 /* Frameworks */,
+				A9E1E92217ED7E7600CDF684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notes;
+			productName = Notes;
+			productReference = A9E1E92417ED7E7600CDF684 /* Notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9E1E91C17ED7E7600CDF684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = IndiaNIC;
+			};
+			buildConfigurationList = A9E1E91F17ED7E7600CDF684 /* Build configuration list for PBXProject "Notes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9E1E91B17ED7E7600CDF684;
+			productRefGroup = A9E1E92517ED7E7600CDF684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E1E92317ED7E7600CDF684 /* Notes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9E1E92217ED7E7600CDF684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E1E93217ED7E7600CDF684 /* InfoPlist.strings in Resources */,
+				A9E1E93A17ED7E7600CDF684 /* Default.png in Resources */,
+				A9E1E93C17ED7E7600CDF684 /* Default@2x.png in Resources */,
+				A9E1E93E17ED7E7600CDF684 /* Default-568h@2x.png in Resources */,
+				A9E1E95417ED7F4300CDF684 /* ViewController.xib in Resources */,
+				A9E1E98A17ED812A00CDF684 /* AddEditNote.xib in Resources */,
+				A9E1E98B17ED812A00CDF684 /* AllNotes.xib in Resources */,
+				A9E1E98D17ED812A00CDF684 /* MyNotes.xib in Resources */,
+				A9E1E98E17ED812A00CDF684 /* NotesDetailVC.xib in Resources */,
+				A9E1E98F17ED812A00CDF684 /* Settings.xib in Resources */,
+				A9E1E99D17EDB1DD00CDF684 /* NotesDB.db in Resources */,
+				A9F40B6217EDCEA700A6CF31 /* isSelected.jpg in Resources */,
+				E99BE41B17EE9DD400D73A4B /* ResetPasswordVC.xib in Resources */,
+				E98B9C3C17EF4A330056FEB6 /* background.jpg in Resources */,
+				E98B9C3D17EF4A330056FEB6 /* logo.png in Resources */,
+				E98B9C3E17EF4A330056FEB6 /* privateIcon.png in Resources */,
+				E98B9C3F17EF4A330056FEB6 /* settingsIcon.png in Resources */,
+				E98B9C4117EF4C090056FEB6 /* publicIcon.png in Resources */,
+				E98B9C5517EF61FD0056FEB6 /* selectioinBackGround.jpg in Resources */,
+				A982CA4C17F06F9400B660A0 /* appLogo.png in Resources */,
+				A982CA4D17F06F9400B660A0 /* logo1.png in Resources */,
+				A982CA4E17F06F9400B660A0 /* logo3.png in Resources */,
+				A982CA4F17F06F9400B660A0 /* settingsIcon1.png in Resources */,
+				A982CA5117F0828E00B660A0 /* NotesDB.sqlite in Resources */,
+				A971D1A4180029FF00F08CCF /* imageBack.png in Resources */,
+				E9DE9F9818018B8F007E7A90 /* SignUPVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9E1E92017ED7E7600CDF684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E1E93417ED7E7600CDF684 /* main.m in Sources */,
+				A9E1E93817ED7E7600CDF684 /* AppDelegate.m in Sources */,
+				A9E1E95217ED7F3A00CDF684 /* ViewController.m in Sources */,
+				A9E1E95E17ED802100CDF684 /* SignUPVC.m in Sources */,
+				A9E1E96D17ED808200CDF684 /* NotesDetailVC.m in Sources */,
+				A9E1E97217ED80AB00CDF684 /* AllNotes.m in Sources */,
+				A9E1E97717ED80B900CDF684 /* MyNotes.m in Sources */,
+				A9E1E97C17ED80C500CDF684 /* Settings.m in Sources */,
+				A9E1E98117ED80E200CDF684 /* AddEditNote.m in Sources */,
+				E99BE41817EE9D1E00D73A4B /* ResetPasswordVC.m in Sources */,
+				A9AA50A418003E970044EB3D /* DIO.m in Sources */,
+				E9BB297A1802367C0047DCBA /* ColorsVC.m in Sources */,
+				E9BB297E180236880047DCBA /* View.m in Sources */,
+				E98FF942180237830093C5FF /* EditImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9E1E93017ED7E7600CDF684 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E1E93117ED7E7600CDF684 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9E1E94517ED7E7600CDF684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9E1E94617ED7E7600CDF684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9E1E94817ED7E7600CDF684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notes/Notes-Prefix.pch";
+				INFOPLIST_FILE = "Notes/Notes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9E1E94917ED7E7600CDF684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notes/Notes-Prefix.pch";
+				INFOPLIST_FILE = "Notes/Notes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9E1E91F17ED7E7600CDF684 /* Build configuration list for PBXProject "Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E1E94517ED7E7600CDF684 /* Debug */,
+				A9E1E94617ED7E7600CDF684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E1E94717ED7E7600CDF684 /* Build configuration list for PBXNativeTarget "Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E1E94817ED7E7600CDF684 /* Debug */,
+				A9E1E94917ED7E7600CDF684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9E1E91C17ED7E7600CDF684 /* Project object */;
+}
